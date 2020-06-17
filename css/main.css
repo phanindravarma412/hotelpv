@@ -68,6 +68,7 @@ h3 {
 }
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 .py-1 {
   padding: 10px 0px;
@@ -86,7 +87,7 @@ h3 {
 #navbar a {
   color: #fff;
 }
-#navbar h1 {
+#navbar .logo {
   padding-top: 20px;
   float: left;
 }
@@ -116,7 +117,7 @@ h3 {
 }
 #showcase .showcase-content h1 {
   font-size: 70px;
-  line-height: 2em;
+  line-height: 1.2em;
   padding-top: 130px;
 }
 #showcase .showcase-content p {
@@ -125,7 +126,7 @@ h3 {
   padding-bottom: 30px;
 }
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 #home-info .info-img {
   background: url("../img/photo-1.jpg") no-repeat center center/cover;
@@ -185,7 +186,7 @@ h3 {
 
 /* reviews */
 #reviews {
-  height: 600px;
+  height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 100px;
 }
